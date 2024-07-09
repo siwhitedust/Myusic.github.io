@@ -1,0 +1,330 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bodyLama{
+    background-color: gray;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo{
+    float: left;
+}
+
+.navbar{
+    background-color: white;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    justify-content: baseline;
+    width: 80%;
+}
+
+.tulisanNavbar{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divNavbarSamping{
+    width: 50%;
+    height: auto;
+    display: flex;
+    position: relative;
+    left: 3cm;
+    justify-content: end;
+}
+
+.tulisanSamping{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 8px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tulisanTry{
+    color: rgb(145, 145, 255);
+}
+
+.pembatas{
+    display: block;
+    height: 0;
+    border-top: 2px solid #000000;
+    width: 80%;
+    position: relative;
+    left: 5cm;
+    opacity: 30%;
+}
+
+.containerBesar2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.anakConatainer{
+    width: 80%;
+    padding: 20px;
+    background-color: white;
+}
+
+.tulisanContainer2{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+#about{
+    color: rgb(255, 189, 66);
+}
+
+.containerBesar3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.anakContainer2{
+    background-color: white;
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.containerBesar4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.anakContainer3{
+    background-color: white;
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragraf1{
+    margin-top: 3cm;
+    width: 50%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: larger;
+}
+
+.paragraf2{
+    font-size: large;
+    text-align: center;
+    margin-bottom: 3cm;
+}
+
+.containerBesar5 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.anakContainer4{
+    background-color: white;
+    width: 80%;
+    padding: 20px;
+    align-items: center;
+}
+
+.kotak{
+    width: 744px;
+    height: 744px;
+    background-color: rgb(255, 255, 133);
+    z-index: 0;
+    position: relative;
+    float: right;
+}
+
+.gambar1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: 2cm;
+    margin-left: 2cm;
+}
+
+.gambar2{
+    position: absolute;
+    background-size: cover;
+    right: 11cm;
+    margin-top: 7cm;
+    background-repeat: no-repeat;
+}
+
+.containerBesar6{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.anakContainer5{
+    background-color: white;
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.p1{
+    margin-top: 3cm;
+    width: 789px;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
+
+.p2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    width: 784px;
+    line-height: 25px;
+}
+
+.containerBesar7{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.anakContainer6{
+    background-color: white;
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.gambarAC6{
+    margin-top: 3cm;
+}
+
+.containerBesar8{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.anakContainer7{
+    background-color: white;
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p1C7{
+    margin-top: 3cm;
+    width: 789px;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
+
+.p2C7{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    width: 784px;
+    line-height: 25px;
+}
+
+.containerBesar9{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.anakContainer8{
+    background-color: white;
+    width: 80%;
+    padding: 20px;
+}
+
+.A1C8{
+    width: 920px;
+    height: 1183px;
+    position: relative;
+    right: 20px;
+    background-color: rgb(169, 255, 169);
+    float: left;
+}
+
+.gambar1C8{
+    position: absolute;
+    margin-top: 3cm;
+    margin-left: 2cm;
+}
+
+.gambar2C8{
+    position: absolute;
+    margin-top: 17cm;
+    margin-left: 2cm;
+}
+
+.gambar3C8{
+    position: absolute;
+    margin-top: 6cm;
+    margin-left: 19cm;
+}
+
+.containerBesar10{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.anakContainer9{
+    background-color: white;
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divC9{
+    width: 789px;
+}
+
+.p1C9{
+    margin-top: 3cm;
+    width: 789px;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
+
+.p2C9{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    width: 784px;
+    line-height: 25px;
+}
