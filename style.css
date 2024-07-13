@@ -34,6 +34,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.tulisanNavbar:hover{
+    background-color: gray;
+    transition: .3s all ease-in-out;
+    border-radius: 10px;
+}
+
 .divNavbarSamping{
     width: 50%;
     height: auto;
@@ -327,4 +333,87 @@
     font-size: medium;
     width: 784px;
     line-height: 25px;
+}
+
+.containerBesar11{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.anakContainer10{
+    background-color: white;
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgAC10{
+    width: 70em;
+    height: 40em;
+    margin-top: 2cm;
+}
+
+.containerBesar12{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.anakContainer11{
+    background-color: white;
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pAC11{
+    margin-top: 3cm;
+    width: 789px;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
+
+.p2AC11{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    width: 784px;
+    line-height: 25px;
+}
+
+.p3AC11{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    width: 784px;
+    line-height: 25px;
+}
+
+.containerBesar13{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.anakContainer12{
+    background-color: white;
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.h1AC12{
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+.aAC12{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
